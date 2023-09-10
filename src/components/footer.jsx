@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <footer>
                 <div className="container">
                     <div className="box">
-                        <img src={require('./logo2.png')} alt="Image Test" />
+                        <Link to='/home'><img src={require('./logo2.png')} alt="Image Test" /></Link>
                         <div className="fa-div">
                             <a href="https://github.com"><i className="fa fa-brands fa-github"></i></a>
                             <i className="fa fa-regular fa-envelope"></i>
@@ -17,8 +18,8 @@ const Footer = () => {
                 </div>
                 
                 <div className="box">
-                    <h2>Quick Links</h2>
-                    <ul>
+                    <h2>Quick Links:</h2>
+                    <ul className='links'>
                         <a href="/home"><li>Home</li></a>
                         <a href='/contact'><li>Contact</li></a>
                     </ul>

@@ -619,6 +619,10 @@ footer .icon i {
   height: 20px;
 }
 
+footer .links {
+  align-items: center;
+}
+
 .legal {
   display: flex;
   justify-content: space-between;
@@ -722,6 +726,7 @@ footer .icon i {
 .certificate,
 .education {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 /* contact */

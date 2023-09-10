@@ -16,11 +16,11 @@ const Header = () => {
             <header className="header">
                 <div className="container flex">
                     <div className="logo">
-                        <img src={require('./logo2.png')} alt="logo of the website" />
+                        <Link to='/home'><img src={require('./logo2.png')} alt="logo of the website"/></Link>
                     </div>
                     <div className="nav">
                         <ul className={sidebar ? "nav-links-sidebar" : "nav-links"} onClick={() => setSidebar(false)}>
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/home">Home</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
                             <li><Link to="/interests">Interests</Link></li>

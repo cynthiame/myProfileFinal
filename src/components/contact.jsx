@@ -7,7 +7,7 @@ const contact = () => {
 
                         <div className="icon">
                             <i class="fa-solid fa-location-dot"></i>
-                            <label htmlFor=''>Location: Guangzhou City, Guangdong Provience, China</label>
+                            <label htmlFor=''>Current Location: Guangzhou City, Guangdong Provience, China</label>
                         </div>
                         <div className="icon">
                             <i class="fa-solid fa-mobile-screen"></i>

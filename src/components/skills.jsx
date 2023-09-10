@@ -37,7 +37,7 @@ const skills = () => {
                             <h4>Object-Oriented-Programming</h4>
                             <h4>MySQL</h4>
                         </div>
-                        <button className="btn btn-primary">Hire Me</button>
+                        <button className="btn btn-primary">More About Me</button>
                     </div>
                 </div>
             </section>

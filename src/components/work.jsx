@@ -7,7 +7,7 @@ const Work = () => {
             <section className="work">
                 <div className="heading">
                     <h2>MY WORKS</h2>
-                    <h1>Some of My Competed Projects</h1>
+                    <h1>Some of My Completed Projects</h1>
                 </div>
                 <div className="content">
                             <>
